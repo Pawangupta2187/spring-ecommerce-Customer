@@ -200,7 +200,7 @@ public class CustomerService {
 
 
 
-//    @Cacheable(value = "testCache")
+    @Cacheable(value="customer", key="#email")
    public CustomerProfileDTO findByEmailID(String email){
         System.out.println("Called DataBase for "+email);
        CustomerProfileDTO customer=registerCustomerRepository.customerProfile(email);

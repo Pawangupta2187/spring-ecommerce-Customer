@@ -16,7 +16,7 @@
 //                .setInstanceName("hazelcast-instance")
 //                .addMapConfig(
 //                        new MapConfig()
-//                                .setName("employees")
+//                                .setName("Customer")
 //                                .setEvictionConfig(new EvictionConfig().setEvictionPolicy(EvictionPolicy.LRU))
 ////                                .(new MaxSizeConfig(200, MaxSizeConfig.MaxSizePolicy.FREE_HEAP_SIZE))
 ////                                .setEvictionPolicy(EvictionPolicy.LRU)
